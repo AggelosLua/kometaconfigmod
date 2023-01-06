@@ -485,7 +485,7 @@ local req = syn.request({
         ["Content-Type"] = "application/json"
     },
     Body = game:GetService("HttpService"):JSONEncode({
-        ["ConfigId"] = "trainsnail"
+        ["ConfigId"] = "pineappleautofarm"
     })
 })
 
@@ -507,7 +507,7 @@ else
         ["Content-Type"] = "application/json"
     },
     Body = game:GetService("HttpService"):JSONEncode({
-        ["ConfigId"] = "trainsnail"
+        ["ConfigId"] = "stumpautofarm"
     })
 })
 
